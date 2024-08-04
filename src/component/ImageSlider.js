@@ -52,8 +52,12 @@ const ImageSlider = () => {
             className="w-full h-full object-cover duration-500"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 bg-black bg-opacity-50">
-            <h2 className="text-2xl md:text-4xl font-bold mb-4">{images[currentIndex].title}</h2>
-            <p className="text-lg md:text-xl mb-4">{images[currentIndex].description}</p>
+          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4">
+  {images[currentIndex].title}
+</h2>
+<p className="text-base sm:text-lg md:text-xl mb-4">
+  {images[currentIndex].description}
+</p>
             <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">{images[currentIndex].buttonText}</button>
           </div>
         </div>

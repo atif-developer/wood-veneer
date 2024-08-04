@@ -4,7 +4,7 @@ export const Furniture = () => {
   return (
     <div className="bg-slate-100">
       <div className="mx-auto max-w-2xl px-4 py-2 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-        <h2 className="text-4xl text-center text-gray-900">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl text-center text-gray-900">
           We'll help you make the perfect furniture:
         </h2>
         <div className="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-2 lg:grid-cols-3 xl:gap-x-4">

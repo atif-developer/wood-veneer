@@ -6,7 +6,7 @@ const Categories = () => {
     <div>
       <div className="bg-white" id="categories">
         <div className="mx-auto max-w-2xl px-4 py-2 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-          <h2 className="text-4xl text-center text-gray-900">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl text-center text-gray-900">
             Categories make the perfect furniture:
           </h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2">
@@ -41,7 +41,7 @@ const Categories = () => {
               </Link>
               <div className="p-2 bg-slate-400 text-center">
                 <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Kitchen Furniture
+                  Kitchen Furniture
                 </h5>
               </div>
             </div>
@@ -206,7 +206,7 @@ const Categories = () => {
                 </div>
               </Link>
             </div> */}
-             <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
+            <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
               <Link to="#" className="relative group flex-1">
                 <img
                   alt="gallery"
@@ -217,7 +217,7 @@ const Categories = () => {
               </Link>
               <div className="p-2 bg-slate-400 text-center">
                 <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Wood Venners
+                  Wood Venners
                 </h5>
               </div>
             </div>
