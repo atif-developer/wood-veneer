@@ -541,3 +541,229 @@ export const kitchenData = [
         }
     },
 ]
+
+export const KitchenPriceList = [
+    {
+        id: 1,
+        model: 'V660-PK',
+        price: '91,000',
+        img: 'https://signaturehardware.pk/wp-content/uploads/2023/12/V660.webp',
+        Data:[
+            {
+                title: 'Touch control.'
+            },
+            {
+                title: '60 cm range hood.'
+            },
+            {
+                title: '1020 m3/h suction power.'
+            },
+            {
+                title: 'Hot auto clean feature.'
+            },
+            {
+                title: '6080 m3/h unrestricted air flow.'
+            },
+        ]
+    },
+    {
+        id: 2,
+        model: 'V900-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/v-900.jpg',
+        price: '95,500',
+        Data:[
+            {
+                title: 'Touch control 90 cm range hood.'
+            },
+            {
+                title: '1050 m3/h suction power.'
+            },
+            {
+                title: 'Hot auto clean feature.'
+            }
+        ]
+    },
+    {
+        id: 3,
+        model: 'V935-PK',
+        img: 'https://zainkitchen.com/wp-content/uploads/2024/04/V932-300x300-1.webp',
+        price: '104,000',
+        Data:[
+            {
+                title: 'Touch control & geasture sensor 90cm range hood.'
+            },
+            {
+                title: '1080 to 1260 m3/h suction power.'
+            },
+            {
+                title: '1080 m3/h unrestricted air flow.'
+            },
+            {
+                title: 'Hot auto clean feature.'
+            }
+        ]
+    },
+    {
+        id: 4,
+        model: 'V932-PK',
+        img: 'https://whitehouse.com.pk/wp-content/uploads/2021/09/1-4.jpg',
+        price: '121,000',
+        Data:[
+            {
+                title: 'Touch control 90 cm range hood.'
+            },
+            {
+                title: '1080 to 1200 m3/h suction power.'
+            },
+            {
+                title: 'Water auto clean.'
+            },
+            {
+                title: 'Super large oil cup.'
+            },
+            {
+                title: 'Stainless steel surface.'
+            }
+        ]
+    },
+    {
+        id: 5,
+        model: 'V991-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/kh2-5.jpg',
+        price: '125,000',
+        Data:[
+            {
+                title: 'Touch control full glass 90cm hood.'
+            },
+            {
+                title: '1260 m3/h suction power.'
+            },
+            {
+                title: '2050 m3/h unrestricted air flow.'
+            },
+            {
+                title: 'Water auto clean.'
+            },
+        ]
+    },
+    {
+        id: 6,
+        model: 'V934-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/v-934.jpg',
+        price: '125,000',
+        Data:[
+            {
+                title: 'Touch control 90cm hood.'
+            },
+            {
+                title: 'Gesture sensor.'
+            },
+            {
+                title: '1080 to 1260 m3/h suction power.'
+            },
+            {
+                title: 'Steam auto clean.'
+            }
+        ]
+    },
+    {
+        id: 7,
+        model: 'V931-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/v-931.jpg',
+        price: '132,000',
+        Data:[
+            {
+                title: 'Touch control 90 cm range hood.'
+            },
+            {
+                title: '1080 to 1200 m3/h suction power.'
+            },
+            {
+                title: '1860 m3/h unrestricted air flow.'
+            },
+            {
+                title: 'Gesture sensor.'
+            },
+            {
+                title: 'Steam & Hot wash auto clean.'
+            }
+        ]
+    },
+    {
+        id: 8,
+        model: 'V936-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/v-936.jpg',
+        price: '136,000',
+        Data:[
+            {
+                title: 'Touch control 90 cm range hood.'
+            },
+            {
+                title: '1080 to 1260 m3/h suction power.'
+            },
+            {
+                title: '2050 m3/h unrestricted air flow.'
+            },
+            {
+                title: 'Steam & Hot wash auto clean.'
+            }
+        ]
+    },
+    {
+        id: 9,
+        model: 'V962-PK',
+        img: 'https://vatti.com.pk/wp-content/uploads/2020/08/v-962.jpg',
+        price: '148,000',
+        Data:[
+            {
+                title: 'Touch control 90 cm range hood.'
+            },
+            {
+                title: '1200 to 1320 m3/h suction power.'
+            },
+            {
+                title: 'Large oil cup'
+            },
+            {
+                title: 'Steam & Hot auto clean.'
+            }
+        ]
+    },
+    {
+        id: 10,
+        model: 'V190-PK',
+        img: 'https://whitehouse.com.pk/wp-content/uploads/2023/02/v190.jpg',
+        price: '171,000',
+        Data:[
+            {
+                title: 'Touch control 90 cm island hood.'
+            },
+            {
+                title: 'Dual side operated.'
+            },
+            {
+                title: '1400 m3/h suction power.'
+            }
+        ]
+    },
+    {
+        id: 11,
+        model: 'V999-PK',
+        img: 'https://zainkitchen.com/wp-content/uploads/2024/04/V999-300x300-1.webp',
+        price: '177,000',
+        Data:[
+            {
+                title: 'Touch control 90cm hood with gesture sensor.'
+            },
+            {
+                title: '1200 to 1440 m3/h suction power.'
+            },
+            {
+                title: '2500 m3/h unrestricted air flow.'
+            },
+            {
+                title: 'Steam & Hot wash auto clean.'
+            }
+        ]
+    },
+]

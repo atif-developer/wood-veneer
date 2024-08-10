@@ -5,6 +5,7 @@ import KitchenProjects from "./component/categoryComponent/KitchenProjects";
 import WardrobeList from "./component/categoryComponent/WardrobeList";
 import Page404 from "./pageNotFound/Page404";
 import ProjectList from "./component/projects/ProjectList";
+import Kitchen from "./component/categoryComponent/KitchenComponent/Kitchen";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path='/KitchenProjects' element={<KitchenProjects />} ></Route>
             <Route path='/WardrobeList' element={<WardrobeList />} ></Route>
             <Route path='/ProjectList' element={<ProjectList />} ></Route>
+            <Route path='/Kitchen' element={<Kitchen />} ></Route>
             <Route path='*' element={<Page404 />} />
           </Routes>
         </Router>

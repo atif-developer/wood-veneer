@@ -3,22 +3,22 @@ import React, { useState, useEffect } from "react";
 const images = [
   {
     url: "https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: 'WHERE WOOD MEET ARTIST',
-    description: 'We just dont create things, we build them with our bare hands.',
-    buttonText: 'Learn More'
+    title: "WHERE WOOD MEET ARTIST",
+    description:
+      "We just dont create things, we build them with our bare hands.",
+    buttonText: "Learn More",
   },
   {
     url: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: 'Title 2',
-    description: 'This is the second image description',
-    buttonText: 'Learn More'
-
+    title: "Title 2",
+    description: "This is the second image description",
+    buttonText: "Learn More",
   },
   {
     url: "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: 'Title 1',
-    description: 'This is the first image description',
-    buttonText: 'Learn More'
+    title: "Title 1",
+    description: "This is the first image description",
+    buttonText: "Learn More",
   },
 ];
 
@@ -52,13 +52,15 @@ const ImageSlider = () => {
             className="w-full h-full object-cover duration-500"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 bg-black bg-opacity-50">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4">
-  {images[currentIndex].title}
-</h2>
-<p className="text-base sm:text-lg md:text-xl mb-4">
-  {images[currentIndex].description}
-</p>
-            <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">{images[currentIndex].buttonText}</button>
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4">
+              {images[currentIndex].title}
+            </h2>
+            <p className="text-base sm:text-lg md:text-xl mb-4">
+              {images[currentIndex].description}
+            </p>
+            <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">
+              {images[currentIndex].buttonText}
+            </button>
           </div>
         </div>
       </div>

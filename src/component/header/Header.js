@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { IoMdMenu } from "react-icons/io";
 import { TbLetterX } from "react-icons/tb";
+import Logo from '../../assets/Art.png';
 
 
 export const Header = () => {
@@ -21,12 +22,12 @@ export const Header = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
+              src={Logo}
+              width={70}
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold text-gray-900">
-              WOOD ACTION
+            <span className="self-center text-lg font-semibold text-orange-600">
+              ART WOOD
             </span>
           </NavLink>
           <div className="md:hidden">
