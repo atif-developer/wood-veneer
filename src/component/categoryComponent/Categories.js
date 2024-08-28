@@ -22,7 +22,7 @@ const Categories = () => {
               </Link>
               <div className="p-2 bg-slate-400 text-center">
                 <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Kitchen Furniture
+                  Kitchen 1
                 </h5>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Kitchen B
+                    Kitchen Appliances 2
                   </h5>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Kitchen Panels
+                    Wardrobes 3
                   </h5>
                 </div>
               </div>
@@ -69,23 +69,23 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Wardrobe
+                    Media Wall 4
                   </h5>
                 </div>
               </div>
 
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <a href="#" className="relative group flex-1">
+                <Link to="/Corian" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
                     src="https://images.unsplash.com/photo-1521607630287-ee2e81ad3ced?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Media Wall"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
-                </a>
+                </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Media Wall
+                    Corian Vinity
                   </h5>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Categories = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2">
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <Link to="/WardrobeList" className="relative group flex-1">
+                <Link to="/BedRoom" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
                     src="https://plus.unsplash.com/premium_photo-1682144668141-f72535882bcb?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -104,12 +104,12 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Wood Venners
+                    Bed Room
                   </h5>
                 </div>
               </div>
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <Link to="/WardrobeList" className="relative group flex-1">
+                <Link to="/Sofa" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
                     src="https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -119,7 +119,7 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Corian
+                      Sofa Seat
                   </h5>
                 </div>
               </div>
@@ -134,7 +134,7 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Doors
+                      Door 8
                   </h5>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Categories = () => {
                 </a>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Windows
+                      Wood Veneer 9
                   </h5>
                 </div>
               </div>
@@ -169,7 +169,7 @@ const Categories = () => {
               </Link>
               <div className="p-2 bg-slate-400 text-center">
                 <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Bedsets
+                  Bedsets 10
                 </h5>
               </div>
             </div>
