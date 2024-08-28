@@ -150,3 +150,48 @@ export const projectData = [
         img: 'https://images.unsplash.com/photo-1496180727794-817822f65950?q=80&w=2200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
 ];
+export const CorianImg = [
+    {
+        id:1,
+        images:[
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/1.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/2.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/3.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/4.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/5.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/6.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/7.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/8.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/9.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/10.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/11.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/12.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/13.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/14.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/15.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/17.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/18.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/19.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/20.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/21.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/22.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/23.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/24.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/25.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/26.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/27.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/28.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/29.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/30.JPG",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/31.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/32.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/33.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/34.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/35.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/36.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/37.jpg",
+            "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/38.jpg"
+        ]
+    }
+        
+]

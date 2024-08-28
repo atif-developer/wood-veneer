@@ -6,6 +6,9 @@ import WardrobeList from "./component/categoryComponent/WardrobeList";
 import Page404 from "./pageNotFound/Page404";
 import ProjectList from "./component/projects/ProjectList";
 import Kitchen from "./component/categoryComponent/KitchenComponent/Kitchen";
+import Sofa from "./component/categoryComponent/Sofa";
+import Corian from "./component/categoryComponent/Corian";
+import BedRoom from "./component/categoryComponent/BedRoom";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
             <Route path='/WardrobeList' element={<WardrobeList />} ></Route>
             <Route path='/ProjectList' element={<ProjectList />} ></Route>
             <Route path='/Kitchen' element={<Kitchen />} ></Route>
+            <Route path='/Sofa' element={<Sofa />} ></Route>
+            <Route path='/Corian' element={<Corian />} ></Route>
+            <Route path='/BedRoom' element={<BedRoom />} ></Route>
             <Route path='*' element={<Page404 />} />
           </Routes>
         </Router>
