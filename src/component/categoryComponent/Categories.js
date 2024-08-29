@@ -39,7 +39,7 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Kitchen Appliances 2
+                    Kitchen Appliances
                   </h5>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Categories = () => {
                 <Link to="/Corian" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://images.unsplash.com/photo-1521607630287-ee2e81ad3ced?q=80&w=3272&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/1.jpg"
                     alt="Media Wall"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -97,7 +97,7 @@ const Categories = () => {
                 <Link to="/BedRoom" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://plus.unsplash.com/premium_photo-1682144668141-f72535882bcb?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/BedRoomImges/bedset/1.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -112,7 +112,7 @@ const Categories = () => {
                 <Link to="/Sofa" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://images.unsplash.com/photo-1484842641800-6767207f4220?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/SofeSeat-img/1.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -124,7 +124,7 @@ const Categories = () => {
                 </div>
               </div>
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <Link to="/WardrobeList" className="relative group flex-1">
+                <Link to="/Doors" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
                     src="https://images.unsplash.com/photo-1550697318-929498858774?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -134,23 +134,23 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Door 8
+                      Door
                   </h5>
                 </div>
               </div>
 
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <a href="#" className="relative group flex-1">
+                <Link to="/WoodVenner" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://images.unsplash.com/photo-1441105501384-23156f198d37?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Wood-Veneer-img/1.jpg"
                     alt="Media Wall"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
-                </a>
+                </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      Wood Veneer 9
+                      Wood Veneer
                   </h5>
                 </div>
               </div>
