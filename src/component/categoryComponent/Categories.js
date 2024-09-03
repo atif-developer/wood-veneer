@@ -54,22 +54,22 @@ const Categories = () => {
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Wardrobes 3
+                    Wardrobes
                   </h5>
                 </div>
               </div>
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
-                <Link to="/WardrobeList" className="relative group flex-1">
+                <Link to="/MediaWall" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://plus.unsplash.com/premium_photo-1674815329032-421d305ad589?q=80&w=3438&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Media+Wall++No+4/LCD+console/0.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
                 <div className="p-2 bg-slate-400 text-center">
                   <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Media Wall 4
+                    Media Wall
                   </h5>
                 </div>
               </div>

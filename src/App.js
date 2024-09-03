@@ -11,6 +11,7 @@ import Corian from "./component/categoryComponent/Corian";
 import BedRoom from "./component/categoryComponent/BedRoom";
 import Doors from "./component/categoryComponent/Doors";
 import WoodVenner from "./component/categoryComponent/WoodVenner";
+import MediaWall from "./component/categoryComponent/MediaWall";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path='/BedRoom' element={<BedRoom />} ></Route>
             <Route path='/Doors' element={<Doors />} ></Route>
             <Route path='/WoodVenner' element={<WoodVenner />} ></Route>
+            <Route path='/MediaWall' element={<MediaWall />} ></Route>
             <Route path='*' element={<Page404 />} />
           </Routes>
         </Router>
