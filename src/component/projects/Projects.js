@@ -1,6 +1,7 @@
 import React from "react";
 import Card from '../cardProject/Card'
 import { Link } from "react-router-dom";
+import { projectData } from "../../db/project-db";
 
 const Projects = () => {
   const proImage1 =
@@ -20,7 +21,12 @@ const Projects = () => {
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
         <h2 className="text-4xl text-center text-gray-900">Projects</h2>
         <div className="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-2 lg:grid-cols-3 xl:gap-x-4">
-        <Card 
+        {projectData.slice(0,6).map((item) => (
+              <div key={item.id}>
+                <Card img={item.img} title={item.title} />
+              </div>
+            ))}
+        {/* <Card 
           img={proImage1}
           title="Mirror"
         />
@@ -43,7 +49,7 @@ const Projects = () => {
         <Card 
           img={proImage6}
           title="Coffee Table"
-        />
+        /> */}
           {/* <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow overflow-hidden transition duration-300">
             <div className="relative group">
               <img

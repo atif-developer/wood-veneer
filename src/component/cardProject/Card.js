@@ -11,7 +11,7 @@ const Card = ({ img, title }) => {
             alt="product image"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <h3 className="text-xl font-semibold text-white bg-gray-900 bg-opacity-50 px-4 py-2 rounded-md">
+            <h3 className="text-xl font-semibold text-white bg-gray-900 bg-opacity-50 px-4 py-2 rounded-md text-center">
               {title}
             </h3>
           </div>
