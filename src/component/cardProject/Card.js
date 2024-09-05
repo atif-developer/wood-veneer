@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Card = ({ img, title }) => {
+const Card = ({pageUrd, img, title }) => {
   return (
     <div className="bg-white">
+      <Link to={pageUrd}>
       <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow overflow-hidden transition duration-300">
         <div className="relative group">
           <img
@@ -20,6 +22,8 @@ const Card = ({ img, title }) => {
           </div>
         </div>
       </div>
+      </Link>
+      
     </div>
   );
 };

@@ -13,6 +13,7 @@ const ProjectList = () => {
     const handleSearchChange = (event) => {
       setSearchText(event.target.value);
     };
+    console.log('----------------',projectData)
     
     const filteredData = projectData.filter((card) =>
       card.title.toLowerCase().includes(searchText.toLowerCase())
@@ -75,7 +76,7 @@ const ProjectList = () => {
           <div className="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4 xl:gap-x-3">
             {filteredData.map((item) => (
               <div key={item.id}>
-                <Card img={item.img} title={item.title} />
+                <Card pageUrd={item.pageUrd} img={item.img} title={item.title} />
               </div>
             ))}
           </div>
