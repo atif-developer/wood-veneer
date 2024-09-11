@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Head from "../header/Head";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import { WardrobeData } from "../../db/Wardrobe-db";
@@ -27,20 +26,19 @@ const WardrobeList = () => {
   };
   return (
     <div>
-      <Head />
       <Header />
-      <div className="bg-white mt-20">
+      <div className="bg-white mt-10">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-          <h2 className="text-4xl text-center text-gray-900">
+          <h2 className="text-4xl text-center text-gray-900 font-themeFont">
             Wardrobe Project
           </h2>
-          <p className="leading-relaxed my-6">
+          <p className="leading-relaxed my-6 font-themeFont">
             Discover our latest wardrobe projects that combine style,
             functionality, and innovation to create perfect storage solutions
             for your home. Explore various designs and find the perfect fit for
             your space.
           </p>
-          <h1 className="mb-2">
+          <h1 className="mb-2 font-themeFont">
             Number of Wardrobe Projects {WardrobeData?.length}
           </h1>
           <div className="border-b-2"></div>
@@ -49,43 +47,36 @@ const WardrobeList = () => {
             <div className="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4 xl:gap-x-3">
               {WardrobeData.map((card) => (
                 <div
-                  className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow overflow-hidden transition duration-300"
                   key={card.id}
+                  className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col"
                 >
-                  <div className="relative group">
-                    {card.img ? (
-                      <img
-                        className="w-full h-96 object-cover transition-transform duration-300 ease-in-out group-hover:brightness-75"
-                        src={card?.img}
-                        alt="product image"
-                      />
-                    ) : (
-                      <div className="w-full h-96 bg-gray-200 flex items-center justify-center">
-                        <span className="text-gray-500">
-                          No Image Available
-                        </span>
-                      </div>
-                    )}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <h3 className="text-xl font-semibold text-white bg-gray-900 bg-opacity-50 px-4 py-2 rounded-md">
-                        {card?.title || "No Title"}
-                      </h3>
-                    </div>
-                    <div className="absolute inset-0 bg-gray-100 opacity-0 group-hover:opacity-50 transition duration-300 ease-in-out">
+                  <div className="relative group flex-1">
+                    <img
+                      className="object-cover w-full h-[250px]"
+                      src={card?.img}
+                      alt="Wardrobe"
+                    />
+                    <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <button
-                        className={`px-5 py-3 bg-orange-500 text-white`}
+                        className="bg-themeOranage text-white px-4 py-2 rounded"
                         onClick={() => openModal(card)}
                       >
                         <FaEye />
                       </button>
                     </div>
                   </div>
+                  <div className="p-2 bg-themeOranage text-center">
+                    <h5 className="mb-0 font-themeFont font-bold tracking-tight text-white">
+                      {card?.title || "No Title"}
+                    </h5>
+                  </div>
                 </div>
               ))}
             </div>
           ) : (
             <div className="my-16">
-              <h1 className="text-red-500 text-3xl text-center">
+              <h1 className="text-themeOranage text-3xl text-center">
                 No Data Found Search another project
               </h1>
             </div>

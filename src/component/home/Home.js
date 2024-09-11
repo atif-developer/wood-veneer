@@ -7,7 +7,6 @@ import About from "../about/About";
 import News from "../newaLetter/News";
 import Furniture from '../wrapper/Furniture'
 import Categories from "../categoryComponent/Categories";
-import Head from "../header/Head";
 // import WelcomeModel from "../../welcomeScreen/WelcomeModel";
 
 export const Home = () => {
@@ -19,7 +18,6 @@ export const Home = () => {
   return (
     <div>
       {/* {showWelcome && <WelcomeModel closeModal={closeWelcomeModal} />} */}
-      <Head />
       <Header />
       <ImageSlider />
       <Categories />

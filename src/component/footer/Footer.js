@@ -3,27 +3,15 @@ import React from "react";
 export const Footer = () => {
   return (
     <div>
-      <footer className="bg-white dark:bg-gray-700">
+      <footer className="bg-themeOranage">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0">
-              <a href="#" className="flex items-center">
-                <img
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  className="h-8 me-3"
-                  alt="FlowBite Logo"
-                />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  WOOD ACTION
-                </span>
-              </a>
-            </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+          {/* <div className="md:flex md:justify-center"> */}
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 text-center">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-themeFont font-semibold text-gray-900 uppercase dark:text-white">
                   Address
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-themeFont font-medium">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
                       Lake City Building C 21/16, CCD, Lake City, Lahore 32025
@@ -31,21 +19,21 @@ export const Footer = () => {
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="font-themeFont hover:underline">
                     Legal Notice | Privacy Policy
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold font-themeFont text-gray-900 uppercase dark:text-white">
                   Contact us
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-medium font-themeFont">
                   <li className="mb-4">
                     <a
                       href="#"
-                      className="hover:underline "
+                      className="font-themeFont hover:underline "
                     >
                       +92-2345678901
                     </a>
@@ -53,19 +41,18 @@ export const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="hover:underline"
+                      className="font-themeFont hover:underline"
                     >
                       +92-2345678901
                     </a>
                   </li>
                 </ul>
               </div>
- 
             </div>
-          </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          {/* </div> */}
+          <hr className="my-6 border-white lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span className="text-sm text-white font-themeFont">
               © 2024{" "}
               <a href="https://zedtac.com/" className="hover:underline">
                 Zedtac.com™

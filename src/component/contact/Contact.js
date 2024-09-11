@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <div>
         <Header />
-        <Head />
+        {/* <Head /> */}
       <section className="text-gray-600 body-font relative mt-16">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">

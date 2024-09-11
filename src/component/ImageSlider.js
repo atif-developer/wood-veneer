@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { GrFormNext,GrFormPrevious } from "react-icons/gr";
 
 const images = [
   {
@@ -43,7 +44,7 @@ const ImageSlider = () => {
   }, []);
 
   return (
-    <div className="mt-[130px] relative w-full h-[30vh] sm:h-[40vh] md:h-[40vh] lg:h-[100vh]">
+    <div className="mt-[100px] relative w-full h-[30vh] sm:h-[40vh] md:h-[40vh] lg:h-[100vh]">
       <div className="overflow-hidden relative w-full h-full">
         <div className="relative w-full h-full">
           <img
@@ -52,10 +53,10 @@ const ImageSlider = () => {
             className="w-full h-full object-cover duration-500"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4 bg-black bg-opacity-50">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-4 font-themeFont">
               {images[currentIndex].title}
             </h2>
-            <p className="text-base sm:text-lg md:text-xl mb-4">
+            <p className="text-base sm:text-lg md:text-xl mb-4 font-themeFont">
               {images[currentIndex].description}
             </p>
             <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">
@@ -66,15 +67,15 @@ const ImageSlider = () => {
       </div>
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white px-4 py-2 rounded-r"
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-themeOranage text-white px-4 py-2 rounded-r"
       >
-        Prev
+        <GrFormPrevious />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white px-4 py-2 rounded-l"
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-themeOranage text-white px-4 py-2 rounded-l"
       >
-        Next
+        <GrFormNext />
       </button>
     </div>
   );

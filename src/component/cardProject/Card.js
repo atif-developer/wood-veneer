@@ -1,29 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({pageUrd, img, title }) => {
+const Card = ({ pageUrd, img, title }) => {
   return (
-    <div className="bg-white">
-      <Link to={pageUrd}>
-      <div className="relative w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow overflow-hidden transition duration-300">
-        <div className="relative group">
-          <img
-            className="w-full h-96 object-cover transition-transform duration-300 ease-in-out group-hover:brightness-75"
-            src={img}
-            alt="product image"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h3 className="text-xl font-semibold text-white bg-gray-900 bg-opacity-50 px-4 py-2 rounded-md text-center">
-              {title}
-            </h3>
-          </div>
-          <div className="absolute inset-0 bg-gray-100 opacity-0 group-hover:opacity-50 transition duration-300 ease-in-out">
-            {/* <button className="px-5 py-3 bg-slate-400 text-white">Eye</button> */}
-          </div>
-        </div>
-      </div>
+    <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
+      <Link to={pageUrd} className="relative group flex-1">
+        <img
+          className="object-cover w-full h-[250px]"
+          src={img}
+          alt="Wardrobe"
+        />
+        <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
+        {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <button className="bg-themeOranage text-white px-4 py-2 rounded">
+            Learn More
+          </button>
+        </div> */}
       </Link>
-      
+      <div className="p-2 bg-themeOranage text-center">
+        <h5 className="mb-0 font-themeFont font-bold tracking-tight text-white">
+          {title}
+        </h5>
+      </div>
     </div>
   );
 };

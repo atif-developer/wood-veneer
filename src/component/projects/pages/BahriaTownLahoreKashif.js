@@ -29,11 +29,11 @@ const BahriaTownLahoreKashif = () => {
         <div>
           <div className="bg-white mt-20">
             <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-              <h2 className="mb-4 text-4xl text-center text-gray-900">
+              <h2 className="mb-4 text-4xl text-center text-gray-900 font-themeFont">
               BAHRIA TOWN LAHORE KASHIF
               </h2>
 
-              <h1 className="mb-4">
+              <h1 className="mb-4 font-themeFont">
                 Number of BAHRIA TOWN LAHORE KASHIF Images{" "}
                 {Data[0]?.Images.length}
               </h1>
@@ -43,7 +43,7 @@ const BahriaTownLahoreKashif = () => {
                   return (
                     <div key={index}>
                       <img
-                        className="h-full w-96  max-w-full rounded-lg"
+                        className="h-96 w-96  max-w-full rounded-lg"
                         src={item}
                         alt=""
                       />

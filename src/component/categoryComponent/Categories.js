@@ -6,7 +6,7 @@ const Categories = () => {
     <div>
       <div className="bg-white" id="categories">
         <div className="mx-auto max-w-2xl px-4 py-2 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl text-center text-gray-900">
+          <h2 className="text-2xl font-themeFont sm:text-3xl md:text-4xl text-gray-900">
             Categories make the perfect furniture:
           </h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2">
@@ -20,8 +20,8 @@ const Categories = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
               </Link>
-              <div className="p-2 bg-slate-400 text-center">
-                <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <div className="p-2 bg-themeOranage text-center">
+                <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Kitchen 1
                 </h5>
               </div>
@@ -37,8 +37,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Kitchen Appliances
                   </h5>
                 </div>
@@ -52,8 +52,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Wardrobes
                   </h5>
                 </div>
@@ -67,8 +67,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Media Wall
                   </h5>
                 </div>
@@ -83,8 +83,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Corian Vinity
                   </h5>
                 </div>
@@ -102,8 +102,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
                     Bed Room
                   </h5>
                 </div>
@@ -117,8 +117,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
                       Sofa Seat
                   </h5>
                 </div>
@@ -132,8 +132,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
                       Door
                   </h5>
                 </div>
@@ -148,8 +148,8 @@ const Categories = () => {
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
                 </Link>
-                <div className="p-2 bg-slate-400 text-center">
-                  <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <div className="p-2 bg-themeOranage text-center">
+                  <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
                       Wood Veneer
                   </h5>
                 </div>
@@ -167,8 +167,8 @@ const Categories = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
               </Link>
-              <div className="p-2 bg-slate-400 text-center">
-                <h5 className="mb-0 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <div className="p-2 bg-themeOranage text-center">
+                <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
                   Bedsets 10
                 </h5>
               </div>

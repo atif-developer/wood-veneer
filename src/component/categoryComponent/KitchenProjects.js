@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import CardKitchen from "./kitchenCard/CardKitchen";
-import Head from "../header/Head";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -10,7 +9,6 @@ import { kitchenData } from "../../db/kitchen-db";
 const KitchenProjects = () => {
   window.scrollTo(0, 0);
   const openModal = (content) => {
-    console.log("🚀 ~ openModal ~ content:", content);
     // Add your modal opening logic here
     setModalContent(content);
     setMainImage(content.images[0]);
@@ -42,14 +40,13 @@ const KitchenProjects = () => {
 
   return (
     <div>
-      <Head />
       <Header />
-      <div className="bg-white mt-16">
+      <div className="bg-white mt-10">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-          <h2 className="text-4xl text-center text-gray-900">
+          <h2 className="text-4xl text-center text-gray-900 font-themeFont">
             Kitchen Projects
           </h2>
-          <p className="leading-relaxed my-6">
+          <p className="leading-relaxed my-6 font-themeFont">
             Our kitchen furniture collection brings both style and functionality
             to your cooking space. Whether you're looking for modern or
             traditional designs, our range offers something to suit every taste.
@@ -89,13 +86,13 @@ const KitchenProjects = () => {
                   id="default-search"
                   value={searchText}
                   onChange={handleSearchChange}
-                  className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-themeOranage focus:border-themeOranage dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-themeOranage dark:focus:border-themeOranage"
                   placeholder="Search Kitchen Projects..."
                 />
               </div>
             </form>
           </div>
-          <h1 className="mb-2">
+          <h1 className="mb-2 font-themeFont">
             Number of Kitchen Projects {filteredData.length}
           </h1>
           <div className="border-b-2"></div>
@@ -112,7 +109,7 @@ const KitchenProjects = () => {
             </div>
           ) : (
             <div className="my-16">
-              <h1 className="text-red-500 text-3xl text-center">
+              <h1 className="text-themeOranage text-3xl text-center font-themeFont">
                 No Data Found Search another project
               </h1>
             </div>

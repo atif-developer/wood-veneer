@@ -15,7 +15,7 @@ export const Header = () => {
 
   return (
     <div>
-      <nav className="bg-white border-gray-200 fixed top-14 left-0 right-0 z-50 shadow-md">
+      <nav className="bg-white border-gray-200 fixed top-0 left-0 right-0 z-50 shadow-md">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink
             to="/"
@@ -33,7 +33,7 @@ export const Header = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-900 hover:text-blue-700 focus:outline-none"
+              className="text-gray-900 hover:text-themeOranage focus:outline-none"
             >
               {isOpen ? <TbLetterX className="h-6 w-6" /> : <IoMdMenu className="h-6 w-6" />}
             </button>
@@ -48,7 +48,7 @@ export const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-gray-900 hover:text-blue-700 hover:underline-offset-8 hover:underline"
+                  className="block py-2 px-3 text-gray-900 font-themeFont hover:text-themeOranage hover:underline-offset-8 hover:underline"
                   aria-current="page"
                 >
                   Home
@@ -57,7 +57,7 @@ export const Header = () => {
               <li>
                 <a
                   href="#categories"
-                  className={`block py-2 px-3 ${location.hash === '#categories' ? 'text-blue-700 underline underline-offset-8' : 'text-gray-900'} hover:text-blue-700 hover:underline-offset-8 hover:underline`}
+                  className={`block py-2 px-3 font-themeFont ${location.hash === '#categories' ? 'text-themeOranage underline underline-offset-8' : 'text-gray-900'} hover:text-themeOranage hover:underline-offset-8 hover:underline`}
                 >
                   Categories
                 </a>
@@ -65,7 +65,7 @@ export const Header = () => {
               <li>
                 <a
                   href="#projects"
-                  className={`block py-2 px-3 ${location.hash === '#projects' ? 'text-blue-700 underline underline-offset-8' : 'text-gray-900'} hover:text-blue-700 hover:underline-offset-8 hover:underline`}
+                  className={`block py-2 px-3 font-themeFont ${location.hash === '#projects' ? 'text-themeOranage underline underline-offset-8' : 'text-gray-900'} hover:text-themeOranage hover:underline-offset-8 hover:underline`}
                 >
                   Projects
                 </a>
@@ -73,7 +73,7 @@ export const Header = () => {
               <li>
                 <a
                   href="#about"
-                  className={`block py-2 px-3 ${location.hash === '#about' ? 'text-blue-700 underline underline-offset-8' : 'text-gray-900'} hover:text-blue-700 hover:underline-offset-8 hover:underline`}
+                  className={`block py-2 px-3 font-themeFont ${location.hash === '#about' ? 'text-themeOranage underline underline-offset-8' : 'text-gray-900'} hover:text-themeOranage hover:underline-offset-8 hover:underline`}
                 >
                   About
                 </a>
@@ -81,7 +81,7 @@ export const Header = () => {
               <li>
                 <Link
                   to="/contact"
-                  className={`block py-2 px-3 ${location.hash === '#contact' ? 'text-blue-700 underline underline-offset-8' : 'text-gray-900'} hover:text-blue-700 hover:underline-offset-8 hover:underline`}
+                  className={`block py-2 px-3 font-themeFont ${location.hash === '#contact' ? 'text-themeOranage underline underline-offset-8' : 'text-gray-900'} hover:text-themeOranage hover:underline-offset-8 hover:underline`}
                 >
                   Contact
                 </Link>
