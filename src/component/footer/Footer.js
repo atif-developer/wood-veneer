@@ -14,8 +14,7 @@ export const Footer = () => {
                 <ul className="text-white font-themeFont font-medium">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
-                      Lake City Building C 21/16, CCD, Lake City, Lahore 32025
-                      Lahore
+                    Factory Adress:Shalimar Canal Bank Road.Near Dot Chowk Nadeem Street Plot No:33
                     </a>
                   </li>
                   <li className="mb-4">
@@ -35,7 +34,7 @@ export const Footer = () => {
                       href="#"
                       className="font-themeFont hover:underline "
                     >
-                      +92-2345678901
+                      +92-3324143992
                     </a>
                   </li>
                   <li>
@@ -43,7 +42,7 @@ export const Footer = () => {
                       href="#"
                       className="font-themeFont hover:underline"
                     >
-                      +92-2345678901
+                      +92-3224706522
                     </a>
                   </li>
                 </ul>
@@ -54,14 +53,14 @@ export const Footer = () => {
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-white font-themeFont">
               © 2024{" "}
-              <a href="https://zedtac.com/" className="hover:underline">
-                Zedtac.com™
+              <a href=":artwoodveneer.com" className="hover:underline">
+                artwoodveneer.com™
               </a>
               . All Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61551490351002&mibextid=ZbWKwL"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg

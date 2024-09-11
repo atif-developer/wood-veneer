@@ -1,25 +1,27 @@
-import React, { useState } from "react";
-import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
-import { KitchenPriceList } from "../../../db/kitchen-db";
+import React,{ useState } from 'react'
 import { FaEye } from "react-icons/fa6";
+import Header from '../../../header/Header';
+import Footer from '../../../footer/Footer';
+import { OnekanalkitchenData } from '../../../../db/kitchen-db';
 
-const Kitchen = () => {
+const Onekanal = () => {
   window.scrollTo(0, 0);
   const [searchText, setSearchText] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState(null);
+  const [mainImage, setMainImage] = useState(null);
 
   const handleSearchChange = (event) => {
     setSearchText(event.target.value);
   };
 
-  const filteredData = KitchenPriceList.filter((card) =>
-    card.model.toLowerCase().includes(searchText.toLowerCase())
+  const filteredData = OnekanalkitchenData.filter((card) =>
+    card.title.toLowerCase().includes(searchText.toLowerCase())
   );
 
   const openModal = (content) => {
     setModalContent(content);
+    setMainImage(content.images[0]);
     setIsModalOpen(true);
   };
 
@@ -28,13 +30,17 @@ const Kitchen = () => {
     setModalContent(null);
   };
 
+  const handleImageClick = (image) => {
+    setMainImage(image);
+  };
+
   return (
     <div>
       <Header />
       <div className="bg-white mt-10">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
           <h2 className="text-4xl text-center text-gray-900 font-themeFont">
-            Kitchen Price list
+            1-Kanal House Kitchen
           </h2>
           <p className="leading-relaxed my-6 font-themeFont">
             Discover our latest wardrobe projects that combine style,
@@ -81,7 +87,7 @@ const Kitchen = () => {
             </form>
           </div>
           <h1 className="mb-2 font-themeFont">
-            Number of Kitchen Projects {KitchenPriceList.length}
+            Number of 1-Kanal House Kitchen Projects {OnekanalkitchenData.length}
           </h1>
           <div className="border-b-2"></div>
           {filteredData.length > 0 ? (
@@ -109,7 +115,7 @@ const Kitchen = () => {
                   </div>
                   <div className="p-2 bg-themeOranage text-center">
                     <h5 className="mb-0 font-themeFont font-bold tracking-tight text-white">
-                      Model {card?.model}
+                      {card?.title}
                     </h5>
                   </div>
                 </div>
@@ -117,7 +123,7 @@ const Kitchen = () => {
             </div>
           ) : (
             <div className="my-16">
-              <h1 className="text-red-500 text-3xl text-center">
+              <h1 className="text-themeOranage text-3xl text-center">
                 No Data Found Search another Model
               </h1>
             </div>
@@ -135,7 +141,7 @@ const Kitchen = () => {
             <div className="relative bg-white rounded-lg shadow dark:bg-white">
               <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 className="text-xl font-themeFont text-gray-900 dark:text-dark text-center">
-                  {modalContent?.model || "Modal Title"}
+                  {modalContent?.title || "Modal Title"}
                 </h3>
                 <button
                   type="button"
@@ -164,33 +170,72 @@ const Kitchen = () => {
                 <h3 className="text-2xl font-themeFont text-gray-900 dark:text-dark text-center mb-6">
                   Project
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
                   <div>
-                    <img
-                      className="h-auto max-w-full rounded-lg shadow-md"
-                      src={modalContent?.img}
-                      alt="Featured Image"
-                    />
-                  </div>
-                  <div className="flex flex-col justify-between p-4">
-                    <h5 className="text-lg font-themeFont font-semibold text-gray-900 mb-2">
-                      Model: {modalContent?.model}
-                    </h5>
-                    <h5 className="text-xl md:text-2xl font-themeFont font-bold text-gray-900 mb-4">
-                      Price: Rs {modalContent?.price}
-                    </h5>
-                    <ul className="space-y-2 text-gray-600 list-disc list-inside dark:text-gray-400">
-                      {modalContent &&
-                        modalContent.Data.map((detail, index) => (
-                          <li
+                    <div className="grid gap-4">
+                      <div>
+                        {mainImage && (
+                          <img
+                            className="h-auto max-w-full rounded-lg"
+                            src={mainImage}
+                            alt="Featured Image"
+                          />
+                        )}
+                      </div>
+                      <div className="grid grid-cols-5 gap-4">
+                        {modalContent?.images?.map((image, index) => (
+                          <div
                             key={index}
-                            className="text-sm md:text-base font-themeFont"
+                            onClick={() => handleImageClick(image)}
+                            className="cursor-pointer"
                           >
-                            {detail?.title}
-                          </li>
+                            <img
+                              className="h-auto max-w-full rounded-lg"
+                              src={image}
+                              alt={`Gallery Image ${index + 1}`}
+                            />
+                          </div>
                         ))}
-                    </ul>
+                      </div>
+                    </div>
                   </div>
+                  {/* <div>
+                    <div className="text-center">
+                      <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                        <svg
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          className="w-10 h-10"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                          <circle cx={12} cy={7} r={4} />
+                        </svg>
+                      </div>
+                      <div className="flex flex-col items-center text-center justify-center">
+                        <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
+                          {modalContent?.name || "Modal Title"}
+                        </h2>
+                        <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4" />
+                        <Link
+                          to={`https://wa.me/${modalContent?.number}`}
+                          className="flex items-center justify-center"
+                        >
+                          <IoLogoWhatsapp
+                            className="text-white bg-green-600 p-2 rounded-full me-2"
+                            size={40}
+                          />{" "}
+                          Chat with Us
+                        </Link>
+                        <p className="text-base mt-3">
+                          {modalContent?.description || "Modal Description"}
+                        </p>
+                      </div>
+                    </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -199,7 +244,7 @@ const Kitchen = () => {
       </div>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Kitchen;
+export default Onekanal

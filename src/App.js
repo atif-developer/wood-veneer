@@ -28,6 +28,13 @@ import PCHOTELLAHORE from "./component/projects/pages/PCHOTELLAHORE";
 import PUNJABUNIVERSITY from "./component/projects/pages/PUNJABUNIVERSITY"
 import MULTANTERNATIONALAIRPORT from "./component/projects/pages/MULTANTERNATIONALAIRPORT"
 import JOJOCOMPANYGUJRANWALA from "./component/projects/pages/JOJOCOMPANYGUJRANWALA"
+// kitchen pages c
+import Onekanal from "./component/categoryComponent/KitchenProject/1-Kanal-house/Onekanal";
+import TwoKanal from "./component/categoryComponent/KitchenProject/2-kanal-house/Twokanal";
+import FiveKanal from "./component/categoryComponent/KitchenProject/5-kanal-house/Fivekanal";
+import TenKanal from "./component/categoryComponent/KitchenProject/10-kanal-house/Tenkanal";
+import Claccac from "./component/categoryComponent/KitchenProject/claccac-kitchen/Claccac";
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
@@ -60,6 +67,11 @@ function App() {
             <Route path='/13-PunjabUniversity' element={<PUNJABUNIVERSITY />} ></Route>
             <Route path='/14-MultanInterNationalAirport' element={<MULTANTERNATIONALAIRPORT />} ></Route>
             <Route path='/15-JojoCompanyGujranwala' element={<JOJOCOMPANYGUJRANWALA />} ></Route>
+            <Route path='/OnekanalList' element={<Onekanal />} ></Route>
+            <Route path='/TwoKanalList' element={<TwoKanal />} ></Route>
+            <Route path='/FiveKanalList' element={<FiveKanal />} ></Route>
+            <Route path='/TenKanalList' element={<TenKanal />} ></Route>
+            <Route path='/ClaccacList' element={<Claccac />} ></Route>
             <Route path='*' element={<Page404 />} />
           </Routes>
         </Router>

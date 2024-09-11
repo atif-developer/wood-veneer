@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { IoMdMenu } from "react-icons/io";
 import { TbLetterX } from "react-icons/tb";
-import Logo from '../../assets/logo2.jpeg';
+import Logo from '../../assets/logo.jpeg';
 
 
 export const Header = () => {
