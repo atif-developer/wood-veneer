@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { IoMdMenu } from "react-icons/io";
 import { TbLetterX } from "react-icons/tb";
-import Logo from '../../assets/Art.png';
+import Logo from '../../assets/logo2.jpeg';
 
 
 export const Header = () => {
@@ -23,12 +23,13 @@ export const Header = () => {
           >
             <img
               src={Logo}
-              width={70}
+              //  width={100}
+              className='w-full h-16'
               alt="Flowbite Logo"
             />
-            <span className="self-center text-lg font-semibold text-orange-600">
+            {/* <span className="self-center text-lg font-semibold text-orange-600">
               ART WOOD
-            </span>
+            </span> */}
           </NavLink>
           <div className="md:hidden">
             <button

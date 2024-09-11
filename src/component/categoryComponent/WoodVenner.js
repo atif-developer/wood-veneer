@@ -52,7 +52,7 @@ const WoodVenner = () => {
                   return (
                     <div key={index}>
                       <img
-                        className="h-full w-96  max-w-full rounded-lg"
+                        className="h-80 w-96  max-w-full rounded-lg"
                         src={item}
                         alt=""
                       />
