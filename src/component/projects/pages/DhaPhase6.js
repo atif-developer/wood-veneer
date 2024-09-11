@@ -2,6 +2,7 @@ import React from "react";
 import Head from "../../header/Head";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
+import Card from "../CardProject/Card";
 
 const DhaPhase6 = () => {
     window.scrollTo(0, 0);
@@ -46,18 +47,8 @@ const DhaPhase6 = () => {
                 {Data[0]?.Images.length}
               </h1>
               <div className="border-b-2"></div>
-              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {Data[0]?.Images.map((item, index) => {
-                  return (
-                    <div key={index}>
-                      <img
-                        className="h-96 w-96  max-w-full rounded-lg"
-                        src={item}
-                        alt=""
-                      />
-                    </div>
-                  );
-                })}
+              <div>
+                <Card Data={Data[0]} />
               </div>
             </div>
           </div>

@@ -1,31 +1,32 @@
-import React from 'react'
+import React from "react";
 import Head from "../../header/Head";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
+import Card from "../CardProject/Card";
 
 const MULTANTERNATIONALAIRPORT = () => {
   window.scrollTo(0, 0);
-    const Data = [
-      {
-        id: 1,
-        Images: [
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/1.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/2.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/3.JPG",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/4.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/5.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/8.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/9.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/10.JPG",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/11.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/12.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/13.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/14.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/15.jpg",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/156.jpg",
-        ],
-      },
-    ];
+  const Data = [
+    {
+      id: 1,
+      Images: [
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/1.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/2.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/3.JPG",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/4.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/5.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/8.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/9.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/10.JPG",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/11.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/12.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/13.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/14.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/15.jpg",
+        "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/14-MULTANTERNATIONAL+AIRPORT/156.jpg",
+      ],
+    },
+  ];
   return (
     <div className="flex flex-col min-h-screen">
       <Head />
@@ -35,7 +36,7 @@ const MULTANTERNATIONALAIRPORT = () => {
           <div className="bg-white mt-20">
             <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
               <h2 className="mb-4 text-4xl text-center text-gray-900 font-themeFont">
-              MULTAN INTERNATIONAL AIRPORT
+                MULTAN INTERNATIONAL AIRPORT
               </h2>
 
               <h1 className="mb-4 font-themeFont">
@@ -43,18 +44,8 @@ const MULTANTERNATIONALAIRPORT = () => {
                 {Data[0]?.Images.length}
               </h1>
               <div className="border-b-2"></div>
-              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {Data[0]?.Images.map((item, index) => {
-                  return (
-                    <div key={index}>
-                      <img
-                        className="h-96 w-96  max-w-full rounded-lg"
-                        src={item}
-                        alt=""
-                      />
-                    </div>
-                  );
-                })}
+              <div>
+                <Card Data={Data[0]} />
               </div>
             </div>
           </div>
@@ -62,7 +53,7 @@ const MULTANTERNATIONALAIRPORT = () => {
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default MULTANTERNATIONALAIRPORT
+export default MULTANTERNATIONALAIRPORT;

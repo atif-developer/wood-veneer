@@ -2,6 +2,7 @@ import React from 'react'
 import Head from "../../header/Head";
 import Header from "../../header/Header";
 import Footer from "../../footer/Footer";
+import Card from "../CardProject/Card";
 
 const PCHOTELLAHORE = () => {
   window.scrollTo(0, 0);
@@ -19,7 +20,7 @@ const PCHOTELLAHORE = () => {
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/8.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/9.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/10.JPG",
-          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/11.JPG",
+          // "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/11.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/12.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/13.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/14.JPG",
@@ -28,6 +29,7 @@ const PCHOTELLAHORE = () => {
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/17.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/18.JPG",
           "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/19.JPG",
+          "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/12-PC+HOTEL+LAHORE/20.JPG",
         ],
       },
     ];
@@ -48,18 +50,8 @@ const PCHOTELLAHORE = () => {
                 {Data[0]?.Images.length}
               </h1>
               <div className="border-b-2"></div>
-              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {Data[0]?.Images.map((item, index) => {
-                  return (
-                    <div key={index}>
-                      <img
-                        className="h-96 w-96  max-w-full rounded-lg"
-                        src={item}
-                        alt=""
-                      />
-                    </div>
-                  );
-                })}
+              <div>
+                <Card Data={Data[0]} />
               </div>
             </div>
           </div>
