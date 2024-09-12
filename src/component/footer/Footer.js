@@ -1,4 +1,7 @@
 import React from "react";
+import { FaHome } from "react-icons/fa";
+import { PiWechatLogoBold } from "react-icons/pi";
+
 
 export const Footer = () => {
   return (
@@ -6,48 +9,50 @@ export const Footer = () => {
       <footer className="dark:bg-gray-700">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           {/* <div className="md:flex md:justify-center"> */}
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 text-center">
-              <div>
-                <h2 className="mb-6 text-sm font-themeFont font-semibold text-gray-900 uppercase dark:text-white">
-                  Address
-                </h2>
-                <ul className="text-white font-themeFont font-medium">
-                  <li className="mb-4">
-                    <a href="#" className="hover:underline">
-                    Factory Adress: Shalimar Canal Bank Road.Near Dot Chowk Nadeem Street Plot No:33
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a href="#" className="font-themeFont hover:underline">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 text-center">
+            <div className="text-center">
+              <h1 className="text-4xl mb-4">
+                <FaHome className="mx-auto text-white" />
+              </h1>
+              <h2 className="mb-6 text-sm font-themeFont font-semibold text-gray-900 uppercase dark:text-white">
+                Address
+              </h2>
+              <ul className="text-white font-themeFont font-medium">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Factory Address: Shalimar Canal Bank Road. Near Dot Chowk
+                    Nadeem Street Plot No:33
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a href="#" className="font-themeFont hover:underline">
                     Legal Notice | Privacy Policy
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="mb-6 text-sm font-semibold font-themeFont text-gray-900 uppercase dark:text-white">
-                  Contact us
-                </h2>
-                <ul className="text-white font-medium font-themeFont">
-                  <li className="mb-4">
-                    <a
-                      href="#"
-                      className="font-themeFont hover:underline "
-                    >
-                      +92-3324143992
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="font-themeFont hover:underline"
-                    >
-                      +92-3224706522
-                    </a>
-                  </li>
-                </ul>
-              </div>
+                  </a>
+                </li>
+              </ul>
             </div>
+
+            <div className="text-center">
+            <h1 className="text-4xl mb-4">
+                <PiWechatLogoBold className="mx-auto text-white" />
+              </h1>
+              <h2 className="mb-6 text-sm font-semibold font-themeFont text-gray-900 uppercase dark:text-white">
+                Contact us
+              </h2>
+              <ul className="text-white font-medium font-themeFont">
+                <li className="mb-4">
+                  <a href="#" className="font-themeFont hover:underline ">
+                    +92-3324143992
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="font-themeFont hover:underline">
+                    +92-3224706522
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* </div> */}
           <hr className="my-6 border-white lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">

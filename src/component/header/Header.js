@@ -80,12 +80,12 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <Link
-                  to="/contact"
+                <a
+                  href="#contact"
                   className={`block py-2 px-3 font-themeFont ${location.hash === '#contact' ? 'text-themeOranage underline underline-offset-8' : 'text-gray-900'} hover:text-themeOranage hover:underline-offset-8 hover:underline`}
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
