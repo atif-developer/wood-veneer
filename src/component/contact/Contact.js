@@ -78,12 +78,12 @@ export const Contact = () => {
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                 <a className="text-indigo-500">example@email.com</a>
                 <p className="leading-normal my-5">
-                  49 Smith St.
+                Shalimar Canal Bank Road
                   <br />
-                  Saint Cloud, MN 56301
+                  .Near Dot Chowk Nadeem Street Plot No:33
                 </p>
                 <span className="inline-flex">
-                  <a className="text-gray-500">
+                  <a href="https://www.facebook.com/profile.php?id=61551490351002&mibextid=ZbWKwL" className="text-gray-500">
                     <svg
                       fill="currentColor"
                       strokeLinecap="round"

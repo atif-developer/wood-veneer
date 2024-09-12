@@ -14,7 +14,7 @@ export const Footer = () => {
                 <ul className="text-white font-themeFont font-medium">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
-                    Factory Adress:Shalimar Canal Bank Road.Near Dot Chowk Nadeem Street Plot No:33
+                    Factory Adress: Shalimar Canal Bank Road.Near Dot Chowk Nadeem Street Plot No:33
                     </a>
                   </li>
                   <li className="mb-4">
@@ -57,6 +57,9 @@ export const Footer = () => {
                 artwoodveneer.com™
               </a>
               . All Rights Reserved.
+              <a href="https://zedtac.com/" className="ms-2 hover:underline">
+                Zedtac.com
+              </a>
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a

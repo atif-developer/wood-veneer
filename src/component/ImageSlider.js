@@ -11,14 +11,14 @@ const images = [
   },
   {
     url: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 2",
-    description: "This is the second image description",
+    title: "CRAFTING WITH PASSION",
+    description: "Every piece we create tells a story of dedication and timeless craftsmanship.",
     buttonText: "Learn More",
   },
   {
     url: "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Title 1",
-    description: "This is the first image description",
+    title: "DESIGNING LEGACY",
+    description: "More than just products, we shape works of art that stand the test of time.",
     buttonText: "Learn More",
   },
 ];
@@ -59,9 +59,9 @@ const ImageSlider = () => {
             <p className="text-base sm:text-lg md:text-xl mb-4 font-themeFont">
               {images[currentIndex].description}
             </p>
-            <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">
+            {/* <button className="bg-white text-gray-500 px-4 py-2 rounded hover:bg-slate-300">
               {images[currentIndex].buttonText}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

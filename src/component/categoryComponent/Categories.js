@@ -22,7 +22,7 @@ const Categories = () => {
               </Link>
               <div className="p-2 bg-themeOranage text-center">
                 <h5 className="mb-0 font-themeFont text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Kitchen 1
+                  Kitchen
                 </h5>
               </div>
             </div>

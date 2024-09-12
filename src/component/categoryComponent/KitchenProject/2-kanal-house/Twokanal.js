@@ -139,9 +139,9 @@ const Twokanal = () => {
         <div className="relative w-full max-w-4xl max-h-full">
           <div className="relative bg-white rounded-lg shadow dark:bg-white">
             <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-              <h3 className="text-xl font-themeFont text-gray-900 dark:text-dark text-center">
+              {/* <h3 className="text-xl font-themeFont text-gray-900 dark:text-dark text-center">
                 {modalContent?.title || "Modal Title"}
-              </h3>
+              </h3> */}
               <button
                 type="button"
                 className="text-gray-400 bg-transparent hover:bg-themeOranage hover:text-white rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-themeOranage dark:hover:text-white"
@@ -166,9 +166,9 @@ const Twokanal = () => {
               </button>
             </div>
             <div className="p-6 md:p-8 space-y-6">
-              <h3 className="text-2xl font-themeFont text-gray-900 dark:text-dark text-center mb-6">
+              {/* <h3 className="text-2xl font-themeFont text-gray-900 dark:text-dark text-center mb-6">
                 Project
-              </h3>
+              </h3> */}
               <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
                 <div>
                   <div className="grid gap-4">
