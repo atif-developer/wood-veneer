@@ -7,6 +7,7 @@ import About from "../about/About";
 import News from "../newaLetter/News";
 import Furniture from '../wrapper/Furniture'
 import Categories from "../categoryComponent/Categories";
+import Map from "../map/Map";
 // import WelcomeModel from "../../welcomeScreen/WelcomeModel";
 
 export const Home = () => {
@@ -25,6 +26,7 @@ export const Home = () => {
       <Projects />
       <About />
       <News />
+      <Map />
       <Footer />
     </div>
   );
