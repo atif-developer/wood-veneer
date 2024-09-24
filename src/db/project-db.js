@@ -97,9 +97,9 @@ export const projectData = [
     },
     {
         id: 17,
-        title: 'HISH PUPPIES',
-        img: 'https://images.unsplash.com/photo-1496180727794-817822f65950?q=80&w=2200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        pageUrd: '/2-DhaDefenceRaya2017'
+        title: 'HUSH PUPPIES',
+        img: 'https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/17-HUSH-PUPPIES/1.JPG',
+        pageUrd: '/17-HushPuppies'
     },
     {
         id: 18,

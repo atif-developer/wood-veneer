@@ -29,6 +29,7 @@ import PUNJABUNIVERSITY from "./component/projects/pages/PUNJABUNIVERSITY"
 import MULTANTERNATIONALAIRPORT from "./component/projects/pages/MULTANTERNATIONALAIRPORT"
 import JOJOCOMPANYGUJRANWALA from "./component/projects/pages/JOJOCOMPANYGUJRANWALA"
 import BossCompanyGujranwala from "./component/projects/pages/BossCompanyGujranwala";
+import HushPuppies from "./component/projects/pages/HushPuppies";
 // kitchen pages c
 import Onekanal from "./component/categoryComponent/KitchenProject/1-Kanal-house/Onekanal";
 import TwoKanal from "./component/categoryComponent/KitchenProject/2-kanal-house/Twokanal";
@@ -69,6 +70,7 @@ function App() {
             <Route path='/14-MultanInterNationalAirport' element={<MULTANTERNATIONALAIRPORT />} ></Route>
             <Route path='/15-JojoCompanyGujranwala' element={<JOJOCOMPANYGUJRANWALA />} ></Route>
             <Route path='/16-BossCompanyGujranwala' element={<BossCompanyGujranwala />} ></Route>
+            <Route path='/17-HushPuppies' element={<HushPuppies />} ></Route>
             <Route path='/OnekanalList' element={<Onekanal />} ></Route>
             <Route path='/TwoKanalList' element={<TwoKanal />} ></Route>
             <Route path='/FiveKanalList' element={<FiveKanal />} ></Route>
