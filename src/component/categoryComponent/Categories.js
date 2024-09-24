@@ -7,7 +7,7 @@ const Categories = () => {
       <div className="bg-white" id="categories">
         <div className="mx-auto max-w-2xl px-4 py-2 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
           <h2 className="text-2xl font-themeFont sm:text-3xl md:text-4xl text-gray-900">
-            Categories make the perfect furniture:
+            Categories:
           </h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-2">
             {/* First Column with one div */}
@@ -16,7 +16,7 @@ const Categories = () => {
                 <img
                   alt="gallery"
                   className="object-cover w-full h-[540px]"
-                  src="https://plus.unsplash.com/premium_photo-1661954525357-c4b79d333720?q=80&w=3342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/2K1/1.jpg"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
               </Link>
@@ -31,8 +31,8 @@ const Categories = () => {
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
                 <Link to="/Kitchen" className="relative group flex-1">
                   <img
-                    className="object-cover w-full h-[240px]"
-                    src="https://plus.unsplash.com/premium_photo-1674815329032-421d305ad589?q=80&w=3438&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    className="object-container w-full h-[240px]"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/kitchen-test.jpeg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -46,8 +46,8 @@ const Categories = () => {
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
                 <Link to="/WardrobeList" className="relative group flex-1">
                   <img
-                    className="object-cover w-full h-[240px]"
-                    src="https://images.unsplash.com/photo-1701421047855-d7bafd8d6f69?q=80&w=3280&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    className="object-container w-full h-[240px]"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/0/2.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -61,8 +61,8 @@ const Categories = () => {
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
                 <Link to="/MediaWall" className="relative group flex-1">
                   <img
-                    className="object-cover w-full h-[240px]"
-                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Media+Wall++No+4/LCD+console/0.jpg"
+                    className="object-container w-full h-[240px]"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Media+Wall++No+4/LCD+console/19.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -77,8 +77,8 @@ const Categories = () => {
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
                 <Link to="/Corian" className="relative group flex-1">
                   <img
-                    className="object-cover w-full h-[240px]"
-                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/1.jpg"
+                    className="object-container w-full h-[240px]"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Corian-img/2.jpg"
                     alt="Media Wall"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -97,7 +97,7 @@ const Categories = () => {
                 <Link to="/BedRoom" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/BedRoomImges/bedset/1.jpg"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/BedRoomImges/bedset/25.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -112,7 +112,7 @@ const Categories = () => {
                 <Link to="/Sofa" className="relative group flex-1">
                   <img
                     className="object-cover w-full h-[240px]"
-                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/SofeSeat-img/1.jpg"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/SofeSeat-img/2.jpg"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -126,8 +126,8 @@ const Categories = () => {
               <div className="max-w-full bg-white border border-gray-200 rounded-lg shadow overflow-hidden flex flex-col">
                 <Link to="/Doors" className="relative group flex-1">
                   <img
-                    className="object-cover w-full h-[240px]"
-                    src="https://images.unsplash.com/photo-1550697318-929498858774?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    className="object-contain w-full h-[240px]"
+                    src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Door-img/1.JPG"
                     alt="Wardrobe"
                   />
                   <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
@@ -154,7 +154,6 @@ const Categories = () => {
                   </h5>
                 </div>
               </div>
-
             </div>
             
             {/* First Column with one div */}
@@ -163,13 +162,13 @@ const Categories = () => {
                 <img
                   alt="gallery"
                   className="object-cover w-full h-[540px]"
-                  src="https://plus.unsplash.com/premium_photo-1671269943825-e45b177add8f?q=80&w=3426&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/0/1.jpg"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-300"></div>
               </Link>
               <div className="p-2 bg-themeOranage text-center">
                 <h5 className="mb-0 font-themeFont font-bold tracking-tight text-gray-900 dark:text-white">
-                  Bedsets 10
+                  kitchen & Wardrobe 
                 </h5>
               </div>
             </div>

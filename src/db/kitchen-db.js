@@ -41,96 +41,67 @@ export const OnekanalkitchenData = [
                 "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k1/3.jpg",
             ],
     },
-    // {
-    //     id: 2,
-    //     title: "Project 2",
-    //     img: "https://images.unsplash.com/photo-1513716875652-59c99449ee70?q=80&w=3051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     projectPerson: {
-    //         name: "John",
-    //         images: [
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    //         ],
-    //         description: "Description for modal 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //         number: "+92300004444",
-    //     }
-    // },
-    // {
-    //     id: 3,
-    //     title: "Project 3",
-    //     img: "https://images.unsplash.com/photo-1513716875652-59c99449ee70?q=80&w=3051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     projectPerson: {
-    //         name: "Alice",
-    //         images: [
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    //         ],
-    //         description: "Description for modal 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //         number: "+923462789101",
-    //     }
-    // },
-    // {
-    //     id: 4,
-    //     title: "Project 4",
-    //     img: "https://images.unsplash.com/photo-1513716875652-59c99449ee70?q=80&w=3051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     projectPerson: {
-    //         name: "Bob",
-    //         images: [
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    //         ],
-    //         description: "Description for modal 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //         number: "+923462789102",
-    //     }
-    // },
-    // {
-    //     id: 5,
-    //     title: "Project 5",
-    //     img: "https://images.unsplash.com/photo-1513716875652-59c99449ee70?q=80&w=3051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     projectPerson: {
-    //         name: "Charlie",
-    //         images: [
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    //         ],
-    //         description: "Description for modal 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //         number: "+923462789103",
-    //     }
-    // },
-    // {
-    //     id: 6,
-    //     title: "Project 6",
-    //     img: "https://images.unsplash.com/photo-1513716875652-59c99449ee70?q=80&w=3051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     projectPerson: {
-    //         name: "David",
-    //         images: [
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    //             "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
-    //         ],
-    //         description: "Description for modal 1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    //         number: "+923462789104",
-    //     }
-    // },
+    {
+        id: 2,
+        title: "Project 2",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K2/1.jpg",
+            images: [
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K2/1.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K2/2.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K2/3.jpg",
+            ],
+    },
+    {
+        id: 3,
+        title: "Project 3",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/1.jpg",
+            images: [
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/1.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/2.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/3.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/4.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/5.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1K3/6.jpg",
+            ],
+    },
+    {
+        id: 4,
+        title: "Project 4",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/1.jpg",
+            images: [
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/1.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/2.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/3.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/4.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k4/5.jpg",
+            ],
+    },
+    {
+        id: 5,
+        title: "Project 5",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/1.jpg",
+            images: [
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/1.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/2.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/3.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/4.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k5/5.jpg",
+            ],
+    },
+    {
+        id: 6,
+        title: "Project 6",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/1.jpg",
+            images: [
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/1.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/2.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/3.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/4.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/5.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/6.jpg",
+                "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/1k6/7.jpg"
+            ],
+    },
     // {
     //     id: 7,
     //     title: "Project 7",
