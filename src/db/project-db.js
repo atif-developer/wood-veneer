@@ -92,8 +92,8 @@ export const projectData = [
     {
         id: 16,
         title: 'BOOS COMPANY GUJRANWALA',
-        img: 'https://images.unsplash.com/photo-1496180727794-817822f65950?q=80&w=2200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        pageUrd: '/2-DhaDefenceRaya2017'
+        img: 'https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/16-BOOS-COMPANY-GUTRANWALA/1.jpg',
+        pageUrd: '/16-BossCompanyGujranwala'
     },
     {
         id: 17,
